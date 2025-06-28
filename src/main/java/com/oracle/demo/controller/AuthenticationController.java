@@ -2,8 +2,8 @@ package com.oracle.demo.controller;
 
 import com.oracle.demo.domain.users.AuthenticationData;
 import com.oracle.demo.domain.users.User;
-import com.oracle.demo.infra.JwtTokenData;
-import com.oracle.demo.infra.TokenService;
+import com.oracle.demo.infra.security.JwtTokenData;
+import com.oracle.demo.infra.security.TokenService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

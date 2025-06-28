@@ -1,4 +1,4 @@
-package com.oracle.demo.infra;
+package com.oracle.demo.infra.security;
 
 import com.oracle.demo.domain.users.UserRepository;
 import jakarta.servlet.FilterChain;

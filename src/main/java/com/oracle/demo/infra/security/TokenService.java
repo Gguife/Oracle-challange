@@ -1,4 +1,4 @@
-package com.oracle.demo.infra;
+package com.oracle.demo.infra.security;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
