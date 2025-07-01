@@ -23,8 +23,22 @@ public class Forum {
     private String title;
     private String message;
     private LocalDateTime createData;
+    private Boolean active;
     private String author;
     private String course;
 
+
+    public Forum(ForumData data) {
+        this.title = data.title();
+        this.author = data.author();
+        this.message = data.message();
+        this.createData = data.createDate();
+        this.course = data.course();
+        this.active = true;
+    }
+
+    public void delete() {
+        this.active = false;
+    }
 
 }
